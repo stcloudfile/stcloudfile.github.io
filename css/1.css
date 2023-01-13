@@ -1,0 +1,36 @@
+body{
+    background-color:#010409;
+}
+.ed{
+    background-color:#0d1117;
+    width:100%;
+    height:53px;
+}
+.fileicon{
+    background:url("icon/file.png");
+    height:30px;
+    width:30px;
+}
+.diricon{
+    background:url("icon/dir.png");
+    height:30px;
+    width:30px;
+}
+  .wntext{
+    text-align:center;
+}
+.blackp{
+    color: white;
+}
+
+#list {
+    border: 1px solid #d9d6d6;
+    width: 100%;
+}
+#list a::before{
+	background: url('icon/folder_black.png')
+    left center no-repeat;
+}
+#listtext{
+    color: white;
+}
