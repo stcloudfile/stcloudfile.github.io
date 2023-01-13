@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="X-Dns-Prefetch-Control" content="on" />
+<meta http-equiv="content-language" content="zh-CN" />
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-title" content="蓝点网" />
+<link rel="shortcut icon" id='_favicon' href="/favicon.ico">
+<title>正在进行预加载...</title>
+<!-- 统计代码 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fd6c52dfe7074f92cb3060feb3ed02cc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- 统计代码 -->
+</head>
+<body>
+<script type="text/javascript">
+        function countDown(secs, surl) {
+            var jumpTo = document.getElementById('jumpTo');
+            jumpTo.innerHTML = secs;
+            if (--secs > 0) {
+                setTimeout("countDown(" + secs + ",'" + surl + "')", 1000);
+            }
+            else {
+                location.href = surl;
+            }
+        }     
+</script>
+<div>
+<br><br><br><br><br>
+<center>正在进行预加载：<span id="jumpTo">1</span>秒<br><br>
+若加载失败可<a href="https://www.landiannews.com/?utm_sources=landiannews&utm_medium=download&utm_campaign=j-link&utm_content=down.file" target="nofollow">点击这里</a>手动加载</center>
+</div>
+<script type="text/javascript">countDown(1, 'https://www.landiannews.com/?utm_sources=landiannews&utm_medium=download&utm_campaign=j-link&utm_content=down.file');</script>
+</body>
+</html>
