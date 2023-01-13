@@ -11,8 +11,8 @@ body{
     height:30px;
     width:30px;
 }
-.diricon{
-    background:url("icon/dir.png");
+#diricon{
+    background:url('icon/folder_black.png');
     height:30px;
     width:30px;
 }
