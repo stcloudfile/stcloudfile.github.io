@@ -7,14 +7,14 @@ body{
     height:53px;
 }
 .fileicon{
-    background:url("icon/file.png");
-    height:30px;
-    width:30px;
+    background:url("//stcloudfile.github.io/icon/file.png");
+    height:16px;
+    width:16px;
 }
 #diricon{
-    background:url('icon/folder_black.png');
-    height:30px;
-    width:30px;
+    background:url('//stcloudfile.github.io/icon/folder_black.png');
+    height:16px;
+    width:16px;
 }
   .wntext{
     text-align:center;
